@@ -1,0 +1,66 @@
+body {
+  background: #0069da;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2 {
+  color: #fff;
+  margin-bottom: 4rem;
+}
+
+label {
+  color: #ffffff;
+}
+
+.text-muted {
+  color: #000000 !important;
+}
+
+main form {
+  width: 25%;
+}
+
+.btn-primary {
+  width: 100%;
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn-primary:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+@media screen and (max-width: 1366px) {
+  main form {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main form {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main form {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main form {
+    width: 95%;
+  }
+}
